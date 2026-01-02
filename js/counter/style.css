@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#number {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btnPlace {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#Incbutton, #Rebutton, #Decbutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Incbutton:hover {
+    background-color: #45a049;
+}
+
+#Rebutton {
+    background-color: #f44336;
+}
+
+#Rebutton:hover {
+    background-color: #da190b;
+}
+
+#Decbutton {
+    background-color: #2196F3;
+}
+
+#Decbutton:hover {
+    background-color: #0b7dda;
+}
