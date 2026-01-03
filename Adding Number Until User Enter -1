@@ -1,0 +1,15 @@
+let num=0;
+let i=0;
+let result=0;
+while(i>=0){
+    num = parseInt(prompt("Enter a number to add -1 to stop:"));
+    if(num==-1){
+        break;
+    }
+    else{
+        
+        result=i+num;
+        i=num
+        console.log(result)
+    }
+}
